@@ -6,13 +6,6 @@
     padding: 0;
 }
 
-body{
-    background: url(./img/moon1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-
 h1 {
     font-family: 'Quicksand';
     width: 80%;
@@ -86,12 +79,14 @@ form input:focus, form textarea:focus {
 }
 
 .button-field {
-    margin-left: auto;
-    width: 15%;
+    margin: 0 auto;
+    width: fit-content;
 }
 
-input[type=submit] {
-    width: 50%;
+.button-field input {
+    width: 6em;
+    background: rgba(255,255,255,0.8);
+    color: black;
 }
 
 form textarea {
