@@ -7,14 +7,12 @@
     <title>ISTE Creative Corner</title>
     <link rel="stylesheet" href="newstyle.css">
     <style>
-    
     body{
         background: url(./img/moon1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        color: white;
+        background-attachment: fixed;
     }
-
     </style>
 </head>
 <body>
@@ -34,11 +32,11 @@
             </div>
             <div class='field'>
                 <p>Roll No:</p>
-                <input id="rollNoInput" type="number" name='rollno' required/>
+                <input id="rollNoInput" type="text" name='rollno' required/>
             </div>
             <div class='field'>
                 <p>Phone No:</p>
-                <input id="phoneNoInput" type="number" name='phoneNo' required/>
+                <input id="phoneNoInput" type="number" name='phoneNo' maxlength="10" required/>
             </div>
             <div id='next-button' onclick="nextButton()">Next</div>
         </div>
