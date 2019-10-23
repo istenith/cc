@@ -68,6 +68,7 @@ form #login-section #next-button {
   font-size: 1em;
   color: rgba(255, 255, 255, 0.5);
   width: fit-content;
+  text-align: center;
 }
 
 form #login-section #next-button {
@@ -122,6 +123,7 @@ form #story-section .buttons .upload-btn {
   color: white;
   width: fit-content;
   border-radius: 50px;
+  text-align: center;
 }
 
 form #story-section .buttons .upload-btn h4 {
@@ -130,9 +132,9 @@ form #story-section .buttons .upload-btn h4 {
 }
 
 form #story-section .buttons .upload-btn input {
-  opacity: 0;
   outline: none;
   width: 10em;
+  opacity: 0;
 }
 
 form #story-section .buttons input[type="submit"] {
@@ -152,33 +154,33 @@ footer {
   background: #222;
   height: 5em;
   padding: 1em 0;
-}
-
-footer .container {
   display: flex;
-  width: 80%;
   margin: 0 auto;
   justify-content: space-around;
   align-items: center;
 }
 
-footer .container img {
-  width: 3em;
+.row {
+  display: flex;
+  align-items: center;
 }
 
-footer .container div a {
+footer img {
+  width: 3em;
+  margin-right: 1em;
+}
+
+footer  div a {
   text-decoration: none;
   color:white;
 }
 
-footer .container div p {
+footer  div p {
   position: relative;
   display: inline;
-  bottom: 25px;
-  left: 10px;
 }
 
-footer .container i {
+footer  i {
   font-size: 1.5em;
   margin: 0 0.5em;
 }
@@ -223,27 +225,27 @@ footer .container i {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    padding: 0.5em 0;
   }
   
-  footer .container {
+  footer {
     display: flex;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
   }
   
-  footer .container img {
+  footer  img {
     width: 2em;
+    margin-right: 0.66em;
   }
   
-  footer .container div p {
+  footer  div p {
     font-size: 0.7em;
-    bottom: 1em;
     text-align: center;
   }
   
-  footer .container i {
+  footer  i {
     font-size: 1em;
   }
 }
