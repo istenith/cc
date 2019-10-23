@@ -7,6 +7,7 @@
 }
 
 body {
+  padding-top: 3em;
   font-family: "Quicksand";
   color: white;
   min-height: 100vh;
@@ -14,8 +15,7 @@ body {
 
 #iste-presents {
   width: 80%;
-  margin: 3em auto;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 header {
   display: flex;
@@ -38,9 +38,11 @@ form {
   background: rgba(255, 255, 255, 0.1);
   padding: 1em;
   margin: 5em 10em;
+  margin-bottom: 10em;
   width: fit-content;
   height: fit-content;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 form #login-section h4 {
@@ -143,6 +145,44 @@ form #story-section .buttons input[type="submit"] {
   padding: 0.5em 1.5em;
 }
 
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  height: 5em;
+  padding: 1em 0;
+}
+
+footer .container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .container img {
+  width: 3em;
+}
+
+footer .container div a {
+  text-decoration: none;
+  color:white;
+}
+
+footer .container div p {
+  position: relative;
+  display: inline;
+  bottom: 25px;
+  left: 10px;
+}
+
+footer .container i {
+  font-size: 1.5em;
+  margin: 0 0.5em;
+}
+
 @media only screen and (max-width: 576px) {
   header h1 {
     font-size: 2em;
@@ -183,5 +223,27 @@ form #story-section .buttons input[type="submit"] {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+  }
+  
+  footer .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  footer .container img {
+    width: 2em;
+  }
+  
+  footer .container div p {
+    font-size: 0.7em;
+    bottom: 1em;
+    text-align: center;
+  }
+  
+  footer .container i {
+    font-size: 1em;
   }
 }

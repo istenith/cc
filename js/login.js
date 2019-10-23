@@ -23,11 +23,9 @@ function nextButton() {
   var inputName = document.getElementById("nameInput").value;
   var inputRollNo = document.getElementById("rollNoInput").value;
   var inputPhoneNo = document.getElementById("phoneNoInput").value;
-  console.log(String(inputName));
   if (inputName != null) ls.setItem("name", inputName);
   if (inputRollNo != null) ls.setItem("rollNo", inputRollNo);
   if (inputPhoneNo != null) ls.setItem("phoneNo", inputPhoneNo);
-  console.log(ls.getItem("name"));
   document.getElementById("login-section").style.display = "none";
   storySection.style.display = "block";
 }
