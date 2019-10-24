@@ -29,3 +29,9 @@ function nextButton() {
   document.getElementById("login-section").style.display = "none";
   storySection.style.display = "block";
 }
+
+function uploadClicked() {
+  let filePath = document.getElementById("upload-file-btn").value.split("\\");
+  let file = filePath[filePath.length - 1];
+  alert("You have uploaded " + file); 
+}
